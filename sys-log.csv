@@ -1,0 +1,86 @@
+Log Samples---Name
+Mar 29 2004 09:55:23: %PIX-6-302005: Built UDP connection for faddr 193.192.160.244/3053 gaddr 10.0.0.187/53 laddr 192.168.0.2/53---Cisco PIX
+Mar 29 2004 09:55:23: %PIX-6-302006: Teardown UDP connection for faddr 193.192.160.244/3053 gaddr 10.0.0.187/53 laddr 192.168.0.2/53---Cisco PIX
+Mar 29 2004 09:55:23: %PIX-6-302005: Built UDP connection for faddr 193.192.160.244/3053 gaddr 10.0.0.187/53 laddr 192.168.0.2/53---Cisco PIX
+Mar 29 2004 09:55:25: %PIX-6-302005: Built UDP connection for faddr 66.196.65.40/51250 gaddr 10.0.0.187/53 laddr 192.168.0.2/53---Cisco PIX
+Mar 29 2004 09:55:31: %PIX-6-302001: Built outbound TCP connection 152017 for faddr 212.56.240.37/9200 gaddr 10.0.0.187/2795 laddr 192.168.0.2/2795 ()---Cisco PIX
+Sun, 2004-03-28 15:30:45 - TCP packet - Source:172.21.0.1,4662 ,LAN - Destination:80.142.227.227,4662 ,WAN [Drop] - [TCP preconnect traffic dropped]---NetGear FWG114P
+Sun, 2004-03-28 15:31:34 - TCP packet - Source:82.82.111.67,4662 ,WAN - Destination:217.224.147.21,4762 ,LAN [Drop] - [TCP preconnect traffic dropped]---NetGear FWG114P
+Sun, 2004-03-28 15:31:39 - TCP packet - Source:80.5.99.100,4662 ,WAN - Destination:217.224.147.21,4788 ,LAN [Drop] - [TCP preconnect traffic dropped]---NetGear FWG114P
+Sun, 2004-03-28 15:36:10 - TCP packet - Source:140.112.243.228,5442 ,WAN - Destination:217.224.147.21,3283 ,LAN [Drop] - [TCP preconnect traffic dropped]---NetGear FWG114P
+Sun, 2004-03-28 15:39:54 - TCP packet - Source:217.234.212.2,0 ,WAN - Destination:217.224.147.21,0 ,LAN [Drop] - [Fragment Attack]---NetGear FWG114P
+Mar 12 12:00:08 server2 rcd[308]: Loaded 12 packages in 'ximian-red-carpet|351' (0.01878 seconds)---SuSE SLES 8 
+Mar 12 12:00:08 server2 rcd[308]: id=304 COMPLETE 'Downloading https://server2/data/red-carpet.rdf' time=0s (failed)---SuSE SLES 8 
+Mar 12 12:00:08 server2 rcd[308]: Unable to downloaded licenses info: Unable to authenticate - Authorization Required (https://server2/data/red-carpet.rdf)---SuSE SLES 8
+Mar 12 12:10:00 server2 /USR/SBIN/CRON[6808]: (root) CMD ( /usr/lib/sa/sa1 )---SuSE SLES 8
+Mar 12 12:20:00 server2 /USR/SBIN/CRON[6837]: (root) CMD ( /usr/lib/sa/sa1 )---SuSE SLES 8
+Mar 12 12:01:02 server4 snort: alert_multiple_requests: ACTIVE---RedHat Enterprise Linux
+Mar 12 12:01:02 server4 snort: telnet_decode arguments:---RedHat Enterprise Linux
+Mar 12 12:01:02 server4 snort: snort startup succeeded---RedHat Enterprise Linux
+Mar 12 12:01:02 server4 snort: Ports to decode telnet on: 21 23 25 119---RedHat Enterprise Linux
+Mar 12 12:01:03 server4 snort: Snort initialization completed successfully---RedHat Enterprise Linux
+Mar 10 03:19:48 server5 syslog: su : + tty?? root-informix---HP-UX B.10.20 
+Mar 11 03:19:54 server5 syslog: su : + tty?? root-informix---HP-UX B.10.20
+Mar 12 03:19:51 server5 syslog: su : + tty?? root-informix---HP-UX B.10.20 
+Mar 12 09:27:20 server5 syslog: su : - ttyp1 user-informix---HP-UX B.10.20 
+Mar 12 09:27:35 server5 syslog: su : + ttyp1 user-informix---HP-UX B.10.20
+Mar 12 08:24:51 server6 sshd[24742]: Accepted password for netscape from 111.222.333.444 port 1420 ssh2---HP UX B.11.00 
+Mar 12 08:25:15 server6 tftpd[24241]: Timeout (no requests in 10 minutes)---HP UX B.11.00
+Mar 12 08:49:53 server6 ftpd[27281]: FTP LOGIN FROM 111.222.333.444 [111.222.333.444], netscape---HP UX B.11.00 
+Mar 12 09:05:22 server6 ftpd[27281]: exiting on signal 14---HP UX B.11.00 
+Mar 12 12:32:24 server6 sshd[11187]: Accepted password for jfalgout from 111.222.333.444 port 34138 ssh2---HP UX B.11.00
+Mar 12 11:44:20 server7 ftpd[25306]: Goodbye.---HP UX B.11.11
+Mar 12 11:44:35 server7 tftpd[24955]: Timeout (no requests in 10 minutes)---HP UX B.11.11
+Mar 12 12:17:03 server7 sshd[26501]: pam_authenticate: error Authentication failed---HP UX B.11.11 
+Mar 12 12:17:03 server7 sshd[26501]: Accepted publickey for user from 111.222.333.444 port 32774 ssh2---HP UX B.11.11
+Mar 12 12:34:23 server7 sshd[27393]: pam_authenticate: error Authentication failed---HP UX B.11.11
+Mar 16 00:00:08 evita postfix/smtpd[1713]: connect from dialpool-210-214-5-215.maa.sify.net[210.214.5.215]---Postfix
+Mar 16 00:00:09 evita postfix/smtpd[1713]: NOQUEUE: reject: RCPT from dialpool-210-214-5-215.maa.sify.net[210.214.5.215]: 554 Service unavailable; Client host [210.214.5.215] blocked using dnsbl.sorbs.net; Dynamic IP Address See: http://www.dnsbl.sorbs.net/cgi-bin/lookup?IP=210.214.5.215; from= to= proto=SMTP helo=---Postfix 
+Mar 16 00:00:11 evita postfix/smtpd[1713]: disconnect from dialpool-210-214-5-215.maa.sify.net[210.214.5.215]---Postfix
+Mar 16 00:01:25 evita postfix/smtpd[1713]: connect from camomile.cloud9.net[168.100.1.3]---Postfix 
+Mar 16 00:01:28 evita postfix/smtpd[1713]: EA11834022: client=camomile.cloud9.net[168.100.1.3]---Postfix
+64.242.88.10 - - [07/Mar/2004:16:05:49 -0800] "GET /twiki/bin/edit/Main/Double_bounce_sender?topicparent=Main.ConfigurationVariables HTTP/1.1" 401 12846---Apache
+64.242.88.10 - - [07/Mar/2004:16:06:51 -0800] "GET /twiki/bin/rdiff/TWiki/NewUserTemplate?rev1=1.3&rev2=1.2 HTTP/1.1" 200 4523---Apache
+64.242.88.10 - - [07/Mar/2004:16:10:02 -0800] "GET /mailman/listinfo/hsdivision HTTP/1.1" 200 6291---Apache
+64.242.88.10 - - [07/Mar/2004:16:11:58 -0800] "GET /twiki/bin/view/TWiki/WikiSyntax HTTP/1.1" 200 7352---Apache
+64.242.88.10 - - [07/Mar/2004:16:20:55 -0800] "GET /twiki/bin/view/Main/DCCAndPostFix HTTP/1.1" 200 5253---Apache
+Feb 2 09:00:14 avas.example.com amavisd[11568]: Perl version 5.008001---Amavis-New
+Feb 2 09:00:14 avas.example.com amavisd[11568]: Module Amavis::Conf 1.15---Amavis-New
+Feb 2 09:00:14 avas.example.com amavisd[11568]: Module Archive::Tar 1.07---Amavis-New
+Feb 2 09:00:14 avas.example.com amavisd[11568]: Module Archive::Zip 1.08---Amavis-New
+Feb 2 09:00:14 avas.example.com amavisd[11568]: Module Compress::Zlib 1.31---Amavis-New
+Mar 7 04:05:00 avas CROND[11233]: (cronjob) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg)---Cron Daemon 
+Mar 7 04:05:00 avas CROND[11234]: (mailman) CMD (/usr/local/bin/python -S /usr/local/mailman/cron/gate_news)---Cron Daemon 
+Mar 7 04:10:00 avas CROND[11253]: (cronjob) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg)---Cron Daemon 
+Mar 7 04:10:00 avas CROND[11254]: (cronjob) CMD (/usr/lib/sa/sa1 1 1)---Cron Daemon 
+Mar 7 04:10:00 avas CROND[11257]: (cronjob) CMD (/sbin/dcccollect.sh)---Cron Daemon
+Mar 6 03:52:07 avas dccd[13284]: 1.2.32 database /home/dcc/dcc_db reopened with 997 MByte window---Distributed Checksum Clearinghouse Server
+Mar 6 04:12:03 avas dccd[13284]: "packet length 44 too small for REPORT" sent to client 1 at 80.8.131.68,41000---Distributed Checksum Clearinghouse Server
+Mar 6 19:01:12 avas dccd[13284]: no incoming flood connection from dcc1.example.no, server-ID XXXX---Distributed Checksum Clearinghouse Server
+Mar 6 19:01:42 avas dccd[13284]: no outgoing flood connection to dcc1.example.no, server-ID XXXX---Distributed Checksum Clearinghouse Server
+Mar 6 20:06:37 avas dccd[13284]: "packet length 44 too small for REPORT" sent to client 1 at 194.63.250.215,56007---Distributed Checksum Clearinghouse Server
+Mar 12 13:23:58 avas sshd[23510]: Failed none for illegal user phil from 10.0.0.153 port 2006 ssh2---Red Hat Linux Server
+Mar 12 13:23:58 avas sshd[23510]: Failed keyboard-interactive for illegal user phil from 10.0.0.153 port 2006 ssh2---Red Hat Linux Server
+Mar 12 13:23:58 avas sshd[23510]: Disconnecting: Too many authentication failures for avas.cnc.bc.ca---Red Hat Linux Server
+Mar 12 13:24:17 avas sshd[23522]: Could not reverse map address 10.0.0.153.---Red Hat Linux Server
+Mar 12 13:24:17 avas sshd[23522]: Accepted password for tom from 10.0.0.153 port 2007 ssh2---Red Hat Linux Server
+[13:35:15] [13:35:15] Scanning for directory /usr/lib/...... [13:35:15] OK. Not found.---RK Hunter
+[13:35:15] [13:35:15] Scanning for directory /usr/lib/.../bkit-ssh... [13:35:15] OK. Not found.---RK Hunter
+[13:35:15] [13:35:15] Scanning for directory /usr/lib/.bkit-... [13:35:15] OK. Not found.---RK Hunter
+[13:35:15] [13:35:15] Scanning for directory /tmp/.bkp... [13:35:15] OK. Not found.---RK Hunter
+[13:35:15] [13:35:15] *** Start scan CiNIK Worm (Slapper.B variant) ***---RK Hunter
+[Sun Mar 7 05:39:40 2004] up2date new up2date run started---Up 2 Date
+[Sun Mar 7 05:39:40 2004] up2date Opening rpmdb in /var/lib/rpm/ with option 0---Up 2 Date
+[Sun Mar 7 05:39:40 2004] up2date Opening rpmdb in /var/lib/rpm/ with option 0---Up 2 Date
+[Sun Mar 7 09:39:40 2004] up2date new up2date run started---Up 2 Date
+[Sun Mar 7 09:39:40 2004] up2date Opening rpmdb in /var/lib/rpm/ with option 0---Up 2 Date
+[11-29-2002 - 15:22:37] Client at 24.69.73.3: URL contains high bit character. Request will be rejected. Site Instance='1', Raw URL='/scripts/mail.exe/2001���.jpg'---URL Scan
+[11-29-2002 - 15:22:47] Client at 24.69.73.3: URL contains high bit character. Request will be rejected. Site Instance='1', Raw URL='/scripts/mail.exe/2001���.jpg'---URL Scan
+[11-29-2002 - 21:15:17] Client at 24.67.253.204: URL contains extension '.com', which is disallowed. Request will be rejected. Site Instance='1', Raw URL='/scripts/www.the5yearjournal.com'---URL Scan
+[12-02-2002 - 09:52:33] Client at 142.27.68.15: URL contains high bit character. Request will be rejected. Site Instance='1', Raw URL='/scripts/mail.exe/2001%C2%A4%C3%AB%C2%BE%C3%A4.jpg'---URL Scan
+[12-02-2002 - 09:52:43] Client at 142.27.68.15: URL contains high bit character. Request will be rejected. Site Instance='1', Raw URL='/scripts/mail.exe/2001%C2%A4%C3%AB%C2%BE%C3%A4.jpg'---URL Scan
+(II) PCI: 00:00:0: chip 8086,2560 card 174b,174b rev 03 class 06,00,00 hdr 00---X Free 86
+(II) PCI: 00:02:0: chip 8086,2562 card 174b,174b rev 03 class 03,00,00 hdr 00---X Free 86
+(II) PCI: 00:1d:0: chip 8086,24c2 card 174b,174b rev 02 class 0c,03,00 hdr 80---X Free 86
+(II) PCI: 00:1d:1: chip 8086,24c4 card 174b,174b rev 02 class 0c,03,00 hdr 00---X Free 86
+(II) PCI: 00:1d:2: chip 8086,24c7 card 174b,174b rev 02 class 0c,03,00 hdr 00---X Free 86
